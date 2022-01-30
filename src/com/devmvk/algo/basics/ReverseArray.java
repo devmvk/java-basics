@@ -12,7 +12,7 @@ public class ReverseArray {
     public static int[] reverse(int[] array){
         int temp;
         int arraySize = array.length;
-        for (int i = 0; i < arraySize; i++) {
+        for (int i = 0; i <= (arraySize / 2) - 1; i++) {
             temp = array[i];
             array[i] = array[arraySize - i - 1];
             array[arraySize - i - 1] = temp;
