@@ -1,2 +1,8 @@
-package com.devmvk.banking;public class Bank {
+package com.devmvk.banking;
+
+import java.util.ArrayList;
+
+public class Bank {
+
+    private ArrayList<Branch> branches;
 }
